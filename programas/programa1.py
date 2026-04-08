@@ -12,10 +12,10 @@ def programa1(RutaPdf):
     #Iterate trough the pages in pdf and append (concatenacion) them in text variable
     # the function extract_text returns either text or "" if no text was found, thats why the "or" is needed 
     
-    text = "" # inicializacion de la variable text como string 
+     # inicializacion de la variable text como string 
 
     for page in pdf.pages: 
-        text += page.extract_text()
+        text += page.extract_text(layout=True) or ""
     
     
     return text
