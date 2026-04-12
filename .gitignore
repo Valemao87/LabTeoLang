@@ -1,0 +1,3 @@
+#Un gitignore ignora ciertos archivos cuando hacemos commits y push
+
+programas/__pycache__/
