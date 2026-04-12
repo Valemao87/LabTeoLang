@@ -1,15 +1,29 @@
 # -*- coding: utf-8 -*-
 import re
 import sys
+import programa1
 
 def programa3(RutaFactura):
     
-    '''
-    SU CÓDIGO
+    texto = programa1.programa1(RutaFactura)
     
+    res = ""
+    lineas = texto.split("\n")
+
     
-    '''
+    patron = r"^\s*(\d+)\s+(.+?)\s+(\d+\s*,\s*\d{2})\s+(\d+\s*,\s*\d{2})\s*$"
     
+    for linea in lineas:
+        m = re.match(patron, linea)
+        if m:
+            cant = m.group(1)
+            desc = m.group(2)
+            precio = m.group(3)
+            total = m.group(4)
+            
+            res += f"Cant: {cant} |Desc: {desc} | {precio} c/u |Total:  {total}\n"
+    
+    return res
     res=f"Cant: 10 |Desc: PRUEBA | 10,10 c/u |Total: 101\n"
     
     
