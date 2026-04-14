@@ -1,36 +1,33 @@
  
  
-FACTURA  
+FACTURA   
  
 FECHA:   
 25-02-2026   
  
 N.º DE FACTURA   
-100   
+100  
  
 ID. DE CLIENTE:   
-ABC12345  
-PARA:   Anjali Chaturvedi   
+ABC12345  PARA:   Anjali Chaturvedi   
 Fotografía de marco adicional   
 89 Pacific Ave   
 San Francisco, CA   
-123 -456 -7890   
+123-456-7890   
  
  
  
 VENDEDOR   TRABAJO   CONDICIONES 
-DE PAGO   
-FECHA DE 
+DE PAGO   FECHA DE 
 VENCIMIENTO   
 Óscar Martínez   Ventas   Pago a la recepción   30/0 6/2026   
  
 CANT.   DESCRIPCIÓN   PRECIO POR 
-UNIDAD   
-TOTAL DE 
+UNIDAD   TOTAL DE 
 LÍNEA   
 10  Cuadros colgantes de 20" x 30"   15,00   150,00   
 50  Cuadros de pie de 5" x 7"   5,00   250,00   
-10 ÍTEMS*1122*ALWE  223,60  2236,00  
+10 ÍTEMS*1122*ALWE  223,60  2236,00 
     
     
     
@@ -47,4 +44,4 @@ IMPUESTO   3216
 BANCARIO   3210,92   
 TODOS LOS CHEQUES SE EXTENDERÁN A NOMBRE DE  CREATE & CO.  
 ¡Gracias por su confianza!   
- CREATE & CO.  123 MAIN ST.  | SEATTLE, WA 78910  | PHONE:  111 -222 -3333  | FAX:  111 -222 -3334  
+ CREATE & CO.  123 MAIN ST.  | SEATTLE, WA 78910  | PHONE:  111-222-3333  | FAX:  111-222-3334  
