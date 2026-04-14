@@ -1,14 +1,21 @@
 # -*- coding: utf-8 -*-
 import re
 import sys
-
+import programa2
+import programa4
 def programa5(RutaPdf,RutaXML):
     resultado = False
-    
-    '''
-    SU CÓDIGO
-    '''
-    
+    facturapdf=programa2.programa2(RutaPdf)
+    bancariaxml=programa4.programa4(RutaXML)
+
+    target = f""" Importe="{facturapdf[1]}" Fecha="{facturapdf[0]}" """
+
+    rexml=re.findall( target ,bancariaxml)
+
+    if rexml:     
+        resultado = True 
+
+
     if resultado:
         return(True)
     else:
