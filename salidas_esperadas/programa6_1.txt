@@ -9,7 +9,7 @@
     <BanTeng:Movimiento TipoMov="D" Importe="5600" Fecha="2026-02-26" Concepto="debito" Referencia="0" Saldo="" />
     <BanTeng:Movimiento TipoMov="D" Importe="330" Fecha="2026-02-26" Concepto="Transferencia" Referencia="0" Saldo="" />
     <BanTeng:Movimiento TipoMov="D" Importe="1500" Fecha="2026-02-25" Concepto="Sin concepto" Referencia="0" Saldo="" />
-        <BanTeng:Movimiento TipoMov="D" Importe="330" Fecha="2026-02-24" Concepto="Transferencia" Referencia="0" Saldo="" />
+    <BanTeng:Movimiento TipoMov="D" Importe="330" Fecha="2026-02-24" Concepto="Transferencia" Referencia="0" Saldo="" />
     <BanTeng:Movimiento TipoMov="C" Importe="680,22" Fecha="2026-02-23" Concepto="Factura 121" Referencia="0" Saldo="" />
     <BanTeng:Movimiento TipoMov="D" Importe="11500" Fecha="2026-02-19" Concepto="Transferencia en plaza 1" Referencia="0" Saldo=""/>
     <BanTeng:Movimiento TipoMov="D" Importe="11500" Fecha="2026-02-18" Concepto="Sin concepto" Referencia="0" Saldo="" />
