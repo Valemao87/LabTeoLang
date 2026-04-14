@@ -25,8 +25,33 @@ def programa6(RutaPdf,RutaXML):
     
     if programa5.programa5(RutaPdf,RutaXML): 
         #deletear la linea
-        xml
+
+        target = f""" Importe="{monto}" Fecha="{fecha}" """
+        
+        target_text = xml
+
+        xml = re.sub(target, "", target_text)
+
+
+
+
         #Cambiar contador de importes
+        #First find the number, then minus one it
+
+        
+        num_text = xml
+        num = re.search(r"<BanTeng:TotalMovimientos>(\d+)", num_text)
+        if num:
+            num = int(num.group(1)) -1 
+
+        #Now sub
+
+        result = re.sub(r"(<BanTeng:TotalMovimientos>)(\d+)", r"\1" + str(num), xml)
+
+        return result
+
+
+        
     else: return xml
 
 
