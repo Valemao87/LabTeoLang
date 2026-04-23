@@ -4,12 +4,16 @@ import sys
 import programa2
 import programa4
 def programa5(RutaPdf,RutaXML):
+    #aca sacamos los dos tipos de archivos que tenemos para analizar en particular
+    #programa2 lo devuelve como tupla la infromacion fecha y monto
+    #programa4 devuelve un texto pleno para analizar
     resultado = False
     facturapdf=programa2.programa2(RutaPdf)
     bancariaxml=programa4.programa4(RutaXML)
-
+    #target lo usamos para generar la expresion regular que buscamos con f
+    #notar que usamos """ """ que es para decir la expresion contine "" y es para diferenciar
     target = f""" Importe="{facturapdf[1]}" Fecha="{facturapdf[0]}" """
-
+    #guardamos en rexml todas las veces que aparece el target en bancariasxml
     rexml=re.findall( target ,bancariaxml)
 
     if rexml:     
